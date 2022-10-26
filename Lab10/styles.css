@@ -1,0 +1,115 @@
+header {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("images/studland-1101904_1920.jpg");
+    background-position: center;
+}
+
+body {
+    background-color: #240115;
+}
+
+nav {
+    flex-basis: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1, h2, h3, p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== */
+
+.bio {
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 15px;
+    color: #2F131E;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    text-decoration: none;
+    max-width: 30rem;
+    color: #2F131E;
+}
+
+.bio-pic {
+    width: 30vw;
+    height: auto;
+    margin: 0.5rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgba(255,255,255,0.9);
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 15px;
+    border: 2px solid #87F5FB;
+    color: #2F131E;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.deck {
+    padding: 2px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-pic {
+    width: 40vw;
+    height: auto;
+    margin: 0.5rem;
+}
+
+/* ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== */
+
+header>img {
+    width: 40vw;
+    height: auto;
+    background-color: white;
+}
+
+nav>a {
+    background-color: rgba(255,255,255,0.9);
+    color: #2F131E;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== */
+
+#our-story {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #DE3C4B;
+}
+
+#gallery {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contact {
+    padding: 1rem;
+    margin: 1rem;
+    color: rgba(255,255,255,0.9);
+    background-color: #DE3C4B;
+    text-align: center;
+}
