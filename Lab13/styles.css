@@ -34,7 +34,9 @@ nav>a {
     color: #0f0f0f;
     padding: .5rem 1rem;
     display: inline-block;
-    margin: .5rem .5rem 0 0;
+    margin: 1rem 2rem 0 0;
+    position: relative;
+    transition: opacity .2s ease-in-out, left .5s ease-in-out;
 }
 
 main {
@@ -43,6 +45,8 @@ main {
 
 section {
     padding: 0 1rem;
+    padding-left: 5rem;
+    position: relative;
 }
 
 .title {
@@ -81,6 +85,115 @@ section {
     .sidenav>a {
         display: block;
         text-align: right;
+        margin: 2rem;
+        left: -10rem;
     }
 
+    .sidenav>a:hover {
+        left: 0;
+    }
+
+}
+
+nav>a {
+    transition-property: opacity;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+
+.sidenav>a::before, .sidenav>a::after {
+    position: absolute;
+    width: 1.7rem;
+    height: 2.5rem;
+    top: -.6rem;
+}
+
+.sidenav>a:before {
+    content: url("images/scroll-left.svg");
+    left: -1.6rem;
+}
+
+.sidenav>a::after {
+    content: url("images/scroll-right.svg");
+    right: -1.6rem;
+}
+
+section:before {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    left: 0;
+    top: 0;
+}
+
+#odin::before {
+    content: url("images/odin.svg");
+}
+
+#thor::before {
+    content: url("images/thor.svg");
+}
+
+#loki::before {
+    content: url("images/loki.svg");
+}
+
+#frigg::before {
+    content: url("images/frigg.svg");
+}
+
+#baldr::before {
+    content: url("images/baldr.svg");
+}
+
+#freyja::before {
+    content: url("images/freyja.svg");
+}
+
+#freyr::before {
+    content: url("images/freyr.svg");
+}
+
+#heimdallr::before {
+    content: url("images/heimdallr.svg");
+}
+
+#yggdrasil::before {
+    content: url("images/yggdrasil.svg");
+}
+
+#asgard::before {
+    content: url("images/asgard.svg");
+}
+
+#vanaheimr::before {
+    content: url("images/vanaheimr.svg");
+}
+
+#alfheim::before {
+    content: url("images/alfheim.svg");
+}
+
+#midgard::before {
+    content: url("images/midgard.svg");
+}
+
+#jotunheimr::before {
+    content: url("images/jotunheimr.svg");
+}
+
+#muspelheim::before {
+    content: url("images/muspelheim.svg");
+}
+
+#svartalfar::before {
+    content: url("images/svartalfar.svg");
+}
+
+#niflheim::before {
+    content: url("images/niflheim.svg");
+}
+
+#nidavellir::before {
+    content: url("images/nidavellir.svg");
 }
