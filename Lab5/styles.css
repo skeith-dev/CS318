@@ -80,7 +80,7 @@ article>footer {
 }
 
 article>footer span {
-    columns: #275218;/*This should be color*/
+    color: #275218;/*This should be color*/
     font-size: 1.25rem;
 }
 
